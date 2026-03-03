@@ -2,8 +2,10 @@
 <html>
 <head>
     <title>Halaman Pertama</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+  
     <h1>Halo, Dunia!</h1>
     <p>Saya Asepp.</p>
     <img src="download.jpg" alt="somat">
@@ -36,29 +38,35 @@
        
     </form><br><br>
 
-    <form action="#">
-        <lebel for="nama">Nama: </lebel>
-        <input type="text" id="nama" placeholder="Masukan Nama"><br><br>
-      
-        <lebel for="npm">NPM: </lebel>
-        <input type="number" id="npm" placeholder="Masukan NPM"><br><br>
-
-        <label for="kelas">Kelas:</label>
-        <select id="kelas"  placeholder="Pilih Kelas">
-            <option value="ilkompb">Ilkomp B</option>
-            <option value="ilkompa">Ilkomp A</option>
-            <option value="sisf">Sistem Informasi</option>
-        </select><br><br>
+    <div class="container">
+    <h2>
+        <center>Form Kehadiran</center>
+    </h2>
+        <div class="dalem-container">
+        <form action="#">
+            <lebel for="nama">Nama: </lebel>
+            <input type="text" id="nama" placeholder="Masukan Nama"><br><br>
         
-        <label for="tanggal">Tanggal:</label>
-        <input type="date"><br><br>
+            <lebel for="npm">NPM: </lebel>
+            <input type="number" id="npm" placeholder="Masukan NPM"><br><br>
 
-        <label for="waktu">Waktu:</label>
-        <input type="time"><br><br>
-        
-        <input type="submit" value="Submit"><br><br>
+            <label for="kelas">Kelas:</label>
+            <select id="kelas"  placeholder="Pilih Kelas">
+                <option value="ilkompb">Ilkomp B</option>
+                <option value="ilkompa">Ilkomp A</option>
+                <option value="sisf">Sistem Informasi</option>
+            </select><br><br>
+            
+            <label for="tanggal">Tanggal:</label>
+            <input type="date"><br><br>
 
-    </form>
+            <label for="waktu">Waktu:</label>
+            <input type="time"><br><br>
+            
+            <input type="submit" id="btn-sub" value="Submit"><br><br>
+        </form>
+        </div>
+    </div>
     <a href="https://www.google.com">Kunjungi Google</a>
     <br>
     <br>
